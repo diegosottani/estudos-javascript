@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Digite seu nome")
+        document.write(nome)//escreve direto no body
+        document.write(` tem ${nome.length} letras`)
+        var valor = 100
+        var bonoro = valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //moeda localizada por país.
+        alert(bonoro)
+    </script>
+</body>
+</html>
