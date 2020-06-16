@@ -23,11 +23,7 @@ div{
 }
 
 select#aviso{
-    width: 150px;
-}
-
-input#numero{
-    background: red;
+    width: 200px;
 }
 
 footer{
